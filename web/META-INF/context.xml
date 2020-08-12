@@ -9,6 +9,6 @@
             name="ResourceSharing" 
             password="tamnkhoa" 
             type="javax.sql.DataSource" 
-            url="jdbc:sqlserver://resourcesharing.caj6jmhdly4b.ap-southeast-1.rds.amazonaws.com:1433;database=ResourceSharing" 
+            url="jdbc:sqlserver://mkdatabases.caj6jmhdly4b.ap-southeast-1.rds.amazonaws.com:1433;database=ResourceSharing"
             username="mkngtrn"/>
 </Context>
