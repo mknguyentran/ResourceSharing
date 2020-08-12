@@ -1,0 +1,166 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 6, 2020, 9:42:58 PM
+    Author     : Mk
+*/
+
+@font-face {
+    font-family: "SFProRoundedRegular";
+    src: url(../font/SF-Pro-Rounded-Regular.otf) format("opentype");
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#header{
+    box-shadow: 0 0 13px 0 rgba(0,0,0,.25);
+    margin: 0 0 20px 0;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+#body{
+    padding: 0 10px;
+}
+
+.fieldError{
+    color: red;
+}
+
+.form{
+    width: 40%;
+    margin: auto;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: white;
+}
+
+.form input{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 0.5px solid gray;
+}
+
+.loginForm{
+    margin-top: 200px;
+    width: 400px;
+}
+
+.submitButton{
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-radius: 5px;
+}
+
+.submitButton:hover{
+    box-shadow: 0 10px 22px rgba(0,0,0,0.25), 0 5px 6px rgba(0,0,0,0.22);
+}
+
+#fbLoginForm button{
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(52,121,234);
+}
+
+.submitButton button{
+    font-size: 18px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#welcomeMessage{
+    float: right;
+    margin: 0;
+}
+
+#header h1{
+    margin: 0 0 10px 0;
+}
+
+.loginLink{
+    font-size: 20px;
+    color: crimson;
+    float: right;
+    margin-left: 5px;
+}
+
+.loginLink:hover{
+    color: indianred !important;
+}
+
+.toolLink{
+    float: left;
+    margin-right: 10px;
+    padding: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-radius: 5px;
+}
+
+.toolLink:hover{
+    box-shadow: 0 10px 22px rgba(0,0,0,0.25), 0 5px 6px rgba(0,0,0,0.22);
+}
+
+*{
+    font-family: SFProRoundedRegular;
+}
+
+table, tr, th, td{
+    border: 0.5px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+#pageLinkBar{
+    text-align: center;
+    font-size: 25px;
+}
+
+#pageLinkBar a{
+    color: gray;
+}
+
+#currentPage{
+    color: black !important;
+    font-weight: 600;
+}
+
+.textLink{
+    display: inline-block;
+}
+
+.textLink:hover{
+    color: rgba(0,0,0,0.7);
+}
+
+.blueLink{
+    color: rgba(68,140,231,1);
+}
+
+.blueLink:hover{
+    color: rgba(68,140,231,0.85);
+}
+

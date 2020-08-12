@@ -1,0 +1,160 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 14, 2020, 12:51:00 AM
+    Author     : Mk
+*/
+
+#content{
+    padding: 10px;
+    margin: auto;
+    width: fit-content;
+    min-width: 820px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,.25);
+    overflow: hidden;
+}
+
+.unavailable p{
+    color: darkgray;
+    text-decoration: line-through;
+}
+
+#placeOrderButton{
+    color: white;
+    background-color: rgb(49,117,197);
+}
+
+.removeButton{
+    background-color: transparent;
+    color: crimson;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+}
+
+.removeButton:hover{
+    color: indianred;
+}
+
+.removeButton:active{
+    outline: none;
+}
+
+.unavailable td{
+    background-color: gray;
+}
+#total{
+    text-align: right;
+}
+#discountCode{
+    text-transform: uppercase;
+    width: fit-content;
+    border: black solid 0.5px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+#discountCode p{
+    float: left;
+    box-sizing: border-box;
+    margin: 0 10px 0 0;
+}
+#discountCode a{
+    color: rgba(234,99,90,1);
+    font-weight: bolder;
+}
+
+#discountCode a:hover{
+    color: rgba(234,99,90,0.6);
+}
+
+.button{
+    padding: 0;
+    margin: 0;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 22px;
+    font-size: 18px;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    outline: none;
+}
+
+.minusButton{
+    float: left;
+}
+.plusButton{
+    float: right;
+}
+
+.plusButton .button{
+    background-color: rgba(100,201,87,1);
+    border: 2px solid rgba(84,166,70,1);
+    color: rgba(45,99,30,1);
+}
+
+.minusButton .button{
+    background-color: rgba(234,99,90,1);
+    border: 2px solid rgba(207,82,75,1);
+    color: rgba(116,22,18,1);
+}
+
+.plusButton .button:hover{
+    background-color: rgba(84,166,70,1);
+}
+
+.minusButton .button:hover{
+    background-color: rgba(207,82,75,1);
+}
+
+.amount{
+    margin: 0 20px;
+    display: inline-block;
+    overflow: auto;
+    line-height: 27px;
+}
+
+#paymentMethodBox{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#paymentMethodBox legend{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#discountCodeBox{
+    box-sizing: border-box;
+    width: 100%;
+    border: 0.5px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+#applyButton{
+    width: 90px;
+    float: right;
+}
+
+#discountCodeField{
+    width: 660px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+}
+
+::placeholder{
+    text-transform: none;
+}
+
+#discountCodeField:focus{
+    outline: none;
+}
